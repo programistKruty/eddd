@@ -1,0 +1,155 @@
+main {
+  display: flex;
+  margin-right: 50px;
+  margin-left: 50px;
+  flex-direction: column;
+}
+
+#header {
+  position: relative;
+  padding: 50px;
+  background-color: lightblue;
+  margin-top: -10px;
+  max-height: 20%;
+}
+
+#header img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  transform: scaleY(1);
+}
+
+.text1 {
+  font-size: 20px;
+  margin-top: -50px;
+  position: absolute;
+  margin-left: 1000px;
+}
+
+.text2 {
+  font-size: 20px;
+  margin-top: -50px;
+  position: absolute;
+  margin-left: 1150px;
+}
+
+.text3 {
+  font-size: 20px;
+  margin-top: -50px;
+  position: absolute;
+  margin-left: 1240px;
+}
+
+#podfooter {
+  position: relative;
+  background-color: rgba(128, 128, 128, 0.2);
+  opacity: 2px;
+  padding: 80px;
+  height: 0;
+  display: flex;
+}
+
+#podfooter img {
+  height: auto;
+  margin-top: -80px;
+  margin-left: -80px;
+  width: 290px;
+  height: 160px;
+}
+
+#podfooter img:not(:last-child) {
+  margin-right: 30px;
+}
+
+#main {
+  padding-left: 50px;
+}
+
+#main h1 {
+  color: blue;
+  font-size: 30px;
+}
+
+#inputs {
+  align-items: center;
+}
+
+#form-group {
+  max-width: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+label {
+  min-width: 100px;
+  margin-right: 10px;
+}
+
+#form-group input,
+textarea {
+  box-sizing: border-box;
+  padding: 4px;
+  border: 1px solid #ccc;
+  flex-grow: 1;
+  width: 20px !important;
+}
+
+#name {
+  width: 20px;
+}
+
+.zgłoszenie {
+  display: flex;
+  max-width: 25%;
+}
+.zgłoszenie label {
+  margin-top: 60px;
+}
+
+.zgłoszenie input,
+textarea {
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  flex-grow: 1;
+
+  padding: 80px;
+  width: 60px !important;
+}
+.texts {
+  display: flex;
+  margin-left: 108px;
+}
+
+.buttons {
+  display: flex;
+  margin-left: 108px;
+}
+
+.buttons button {
+  background-color: lightblue;
+}
+
+.line {
+  background-color: gray;
+  padding: 1.5px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#footer {
+  margin-top: 70px;
+  display: flex;
+  width: 100%;
+  padding: 4px;
+  background-color: lightblue;
+}
+
+#footer p {
+  display: flex;
+  padding-left: 86%;
+  color: black;
+}
